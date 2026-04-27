@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ============================================================
+       VICTOR NWAOKENYE — Founder Portfolio
+       CHOVI Technologies | ExamSprint
+       ============================================================
+       SEO: Edit the meta tags below with your actual info
+       ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- REPLACE: Update title, description, and OG tags with real info -->
+  <title>Victor Nwaokenye — Software Developer &amp; Founder | CHOVI Technologies</title>
+  <meta name="description" content="Victor Nwaokenye — Software Developer, AI &amp; Automation Builder. Founder at CHOVI Technologies, creator of ExamSprint." />
+  <meta name="author" content="Victor Nwaokenye" />
+  <meta name="keywords" content="Victor Nwaokenye, CHOVI Technologies, ExamSprint, Software Developer, AI, Automation, Founder" />
+
+  <!-- Open Graph (social sharing) -->
+  <meta property="og:title" content="Victor Nwaokenye — Software Developer &amp; Founder" />
+  <meta property="og:description" content="Founder at CHOVI Technologies. Creator of ExamSprint." />
+  <meta property="og:type" content="website" />
+  <!-- REPLACE: og:url and og:image with your deployed domain and a screenshot -->
+  <meta property="og:url" content="https://victornwaokenye.com" />
+  <meta property="og:image" content="https://victornwaokenye.com/assets/images/og-image.jpg" />
+
+  <!-- Favicon placeholder — REPLACE with actual favicon files -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231a6cf5'/><text x='16' y='22' font-family='Arial' font-weight='bold' font-size='16' fill='white' text-anchor='middle'>V</text></svg>" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles/main.css" />
+  <!-- Google Fonts preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+
+<body>
+
+  <!-- ============================================================
+       NAVIGATION BAR
+       ============================================================ -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo">
+      <div class="nav-logo-mark" aria-hidden="true">VN</div>
+      Victor Nwaokenye
+    </a>
+
+    <!-- Desktop navigation links -->
+    <ul class="nav-links">
+      <li><a href="#building">Building</a></li>
+      <li><a href="#chovi">CHOVI</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <!-- REPLACE: Update this link to your actual contact section or external link -->
+      <li><a href="#contact" class="nav-cta">Let&#39;s Connect</a></li>
+    </ul>
+
+    <!-- Hamburger button (mobile) -->
+    <button class="nav-hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav-mobile" aria-hidden="true">
+    <ul>
+      <li><a href="#building">Building</a></li>
+      <li><a href="#chovi">CHOVI Technologies</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Let&#39;s Connect</a></li>
+    </ul>
+  </div>
+
+  <!-- ============================================================
+       HERO SECTION
+       ============================================================ -->
+  <section class="hero" id="hero" aria-label="Hero">
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Left: Text content -->
+        <div class="hero-content">
+          <div class="hero-badge reveal">
+            <span class="hero-badge-dot" aria-hidden="true"></span>
+            Available for partnerships &amp; collaborations
+          </div>
+
+          <h1 class="hero-name reveal reveal-delay-1">
+            <span>Victor</span><br />Nwaokenye
+          </h1>
+
+          <p class="hero-title reveal reveal-delay-2">
+            Software Developer &amp; AI Automation Builder
+          </p>
+
+          <p class="hero-subtitle reveal reveal-delay-2">
+            Founder @ <strong>CHOVI Technologies</strong> &nbsp;|&nbsp; Creator of <strong>ExamSprint</strong>
+          </p>
+
+          <!-- Stats -->
+          <div class="hero-stats reveal reveal-delay-3">
+            <div class="hero-stat">
+              <div class="hero-stat-value">2+</div>
+              <div class="hero-stat-label">Products Built</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-value">1</div>
+              <div class="hero-stat-label">Tech Initiative</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-value">∞</div>
+              <div class="hero-stat-label">Problems to Solve</div>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="hero-cta reveal reveal-delay-4">
+            <a href="#projects" class="btn btn-primary">
+              <span class="btn-icon" aria-hidden="true">&#9654;</span>
+              Explore My Work
+            </a>
+            <!-- REPLACE: Update href with your ExamSprint link -->
+            <a href="#building" class="btn btn-secondary">
+              <span class="btn-icon" aria-hidden="true">&#128640;</span>
+              View ExamSprint
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Profile Image -->
+        <div class="hero-visual reveal reveal-delay-2">
+          <div class="hero-image-wrap">
+            <div class="hero-image-frame">
+              <!--
+                PROFILE IMAGE
+                REPLACE: Change the src below with your actual profile photo path.
+                Example: src="assets/images/victor-profile.jpg"
+                Recommended size: 720x840px or similar portrait ratio
+              -->
+              <img
+                src="assets/images/victor-hero.jpg"
+                alt="Victor Nwaokenye — Software Developer and Founder"
+                onerror="this.style.display='none'; this.parentElement.querySelector('.img-placeholder').style.display='flex';"
+              />
+              <!-- Fallback if image is missing -->
+              <div class="img-placeholder" style="display:none; width:100%; height:100%; background: linear-gradient(135deg, #0a1428 0%, #070d1a 100%); align-items:center; justify-content:center; flex-direction:column; gap:16px;">
+                <div style="font-size:4rem; opacity:0.3;">&#128100;</div>
+                <p style="color: #445577; font-size: 0.8rem; text-align:center; padding: 0 20px;">Replace with your photo:<br/>assets/images/victor-hero.jpg</p>
+              </div>
+            </div>
+
+            <!-- Floating card 1 — bottom left -->
+            <div class="hero-float-tag" aria-hidden="true">
+              <div class="float-icon">&#129302;</div>
+              <div>
+                <div class="float-text-label">Currently Building</div>
+                <div class="float-text-value">ExamSprint</div>
+              </div>
+            </div>
+
+            <!-- Floating card 2 — top right -->
+            <div class="hero-float-tag-2" aria-hidden="true">
+              <div class="float-text-label">Initiative</div>
+              <div class="float-text-value">CHOVI Tech</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ============================================================
+       WHAT I&#39;M BUILDING — EXAMSPRINT
+       ============================================================ -->
+  <section class="building" id="building" aria-label="What I&#39;m Building">
+    <div class="container">
+      <div class="building-inner">
+
+        <!-- Left: Product card -->
+        <div class="product-card reveal">
+          <!-- Product Logo -->
+          <div class="product-logo">
+            <!--
+              EXAMSPRINT LOGO
+              The SwiftResume logo is shown here as an example.
+              REPLACE: Update src with the actual ExamSprint logo.
+              Example: src="assets/images/examsprint-logo.png"
+            -->
+            <img
+              src="assets/images/examsprint-logo.jpg"
+              alt="ExamSprint Logo"
+              style="width:100%; height:100%; object-fit:cover;"
+              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+            />
+            <div class="product-logo-placeholder" style="display:none; width:100%; height:100%; align-items:center; justify-content:center;">ES</div>
+          </div>
+
+          <span class="product-tag">&#128640; Live Product</span>
+
+          <h2 class="product-name">ExamSprint</h2>
+
+          <p class="product-description">
+            An intelligent study platform designed to help students prepare for exams
+            faster and smarter. ExamSprint uses AI-driven content delivery, timed
+            practice sessions, and adaptive question banks to maximize exam
+            readiness in minimal time.
+          </p>
+
+          <ul class="product-features" aria-label="Features">
+            <li>
+              <span class="feature-check" aria-hidden="true">&#10003;</span>
+              AI-powered adaptive learning engine
+            </li>
+            <li>
+              <span class="feature-check" aria-hidden="true">&#10003;</span>
+              Timed practice sprints with instant feedback
+            </li>
+            <li>
+              <span class="feature-check" aria-hidden="true">&#10003;</span>
+              Progress tracking &amp; performance analytics
+            </li>
+            <li>
+              <span class="feature-check" aria-hidden="true">&#10003;</span>
+              Available via Telegram &amp; web interface
+            </li>
+          </ul>
+
+          <!-- REPLACE: Update href with your actual ExamSprint Telegram or web link -->
+          <a href="https://t.me/examsprint_bot" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            <span>&#128640;</span>
+            Try ExamSprint
+          </a>
+        </div>
+
+        <!-- Right: Content -->
+        <div class="building-content">
+          <p class="section-label reveal">What I&#39;m Building</p>
+          <h2 class="section-heading reveal reveal-delay-1">
+            Products built for <em>real impact</em>
+          </h2>
+          <div class="glow-line reveal reveal-delay-1" aria-hidden="true"></div>
+          <p class="section-subheading reveal reveal-delay-2">
+            I don&#39;t just write code — I build tools that solve real problems.
+            ExamSprint is the first product under CHOVI Technologies, with
+            more in the pipeline.
+          </p>
+
+          <div class="skill-chips reveal reveal-delay-3" aria-label="Technologies used">
+            <span class="skill-chip">Python</span>
+            <span class="skill-chip">AI / ML</span>
+            <span class="skill-chip">Telegram Bot API</span>
+            <span class="skill-chip">Automation</span>
+            <span class="skill-chip">Node.js</span>
+            <span class="skill-chip">REST APIs</span>
+            <span class="skill-chip">Cloud Deploy</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ============================================================
+       CHOVI TECHNOLOGIES SECTION
+       ============================================================ -->
+  <section class="chovi" id="chovi" aria-label="CHOVI Technologies">
+    <div class="container">
+      <div class="chovi-inner">
+        <!-- Background decorative text -->
+        <div class="chovi-bg-text" aria-hidden="true">CHOVI</div>
+
+        <div class="chovi-content">
+          <!-- Left: Brand display -->
+          <div class="chovi-logo-display reveal">
+            <div class="chovi-brand-mark">
+              <div class="chovi-icon" aria-hidden="true">
+                <span class="chovi-icon-text">C</span>
+              </div>
+              <div>
+                <div class="chovi-name">CHOVI</div>
+                <div class="chovi-tagline">Technologies</div>
+              </div>
+            </div>
+
+            <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.7; max-width: 380px;">
+              CHOVI Technologies is a software and product initiative focused on
+              building scalable, AI-driven tools for education, productivity, and automation.
+              Built from the ground up with a vision for long-term impact.
+            </p>
+
+            <!-- 4 Pillars -->
+            <div class="chovi-pillars" role="list">
+              <div class="pillar-card reveal reveal-delay-1" role="listitem">
+                <span class="pillar-icon" aria-hidden="true">&#129302;</span>
+                <div class="pillar-title">AI-First</div>
+                <div class="pillar-desc">Every product built with intelligent automation at its core.</div>
+              </div>
+              <div class="pillar-card reveal reveal-delay-2" role="listitem">
+                <span class="pillar-icon" aria-hidden="true">&#9889;</span>
+                <div class="pillar-title">Fast Execution</div>
+                <div class="pillar-desc">Ship fast, iterate faster. Speed is a product feature.</div>
+              </div>
+              <div class="pillar-card reveal reveal-delay-3" role="listitem">
+                <span class="pillar-icon" aria-hidden="true">&#127760;</span>
+                <div class="pillar-title">Scalable</div>
+                <div class="pillar-desc">Architecture designed to grow from 1 to 1 million users.</div>
+              </div>
+              <div class="pillar-card reveal reveal-delay-4" role="listitem">
+                <span class="pillar-icon" aria-hidden="true">&#127891;</span>
+                <div class="pillar-title">Education Focus</div>
+                <div class="pillar-desc">Empowering learners through technology that meets them where they are.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Text -->
+          <div class="reveal reveal-delay-1">
+            <p class="section-label">Our Initiative</p>
+            <h2 class="section-heading">
+              Building the future of <em>edtech &amp; automation</em>
+            </h2>
+            <div class="glow-line" aria-hidden="true"></div>
+            <p class="section-subheading">
+              CHOVI Technologies is more than a company — it&#39;s a portfolio of
+              solutions. Starting with ExamSprint, the roadmap includes tools for
+              workplace automation, productivity, and beyond.
+            </p>
+            <br />
+            <p style="color: var(--text-secondary); font-size: 0.9rem; line-height: 1.75;">
+              The name CHOVI embodies a commitment to delivering high-velocity,
+              high-quality software to African and global markets — starting lean,
+              thinking big.
+            </p>
+
+            <div style="margin-top: 40px;">
+              <a href="#contact" class="btn btn-secondary">
+                Partner with CHOVI
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ============================================================
+       ABOUT SECTION
+       ============================================================ -->
+  <section class="about" id="about" aria-label="About Victor">
+    <div class="container">
+      <div class="about-inner">
+
+        <!-- Profile image -->
+        <div class="about-image-wrap reveal">
+          <div class="about-image-frame">
+            <!--
+              ABOUT PROFILE IMAGE
+              REPLACE: Update src with your second portrait photo.
+              Example: src="assets/images/victor-about.jpg"
+            -->
+            <img
+              src="assets/images/victor-about.jpg"
+              alt="Victor Nwaokenye, Founder of CHOVI Technologies"
+              onerror="this.style.display='none'; this.parentElement.querySelector('.img-placeholder').style.display='flex';"
+            />
+            <div class="img-placeholder" style="display:none; width:100%; height:100%; background: linear-gradient(135deg, #0a1428 0%, #070d1a 100%); align-items:center; justify-content:center; flex-direction:column; gap:16px;">
+              <div style="font-size:4rem; opacity:0.3;">&#128100;</div>
+              <p style="color: #445577; font-size: 0.8rem; text-align:center; padding: 0 20px;">Replace with your photo:<br/>assets/images/victor-about.jpg</p>
+            </div>
+          </div>
+          <div class="about-accent-bar" aria-hidden="true"></div>
+        </div>
+
+        <!-- Bio content -->
+        <div class="about-bio">
+          <p class="section-label reveal">About Me</p>
+          <h2 class="section-heading reveal reveal-delay-1">
+            Developer. <em>Founder.</em><br/>Builder.
+          </h2>
+          <div class="glow-line reveal reveal-delay-1" aria-hidden="true"></div>
+
+          <div class="reveal reveal-delay-2">
+            <p>
+              I&#39;m <strong>Victor Nwaokenye</strong> — a software developer and
+              tech founder with a passion for building intelligent, practical tools
+              that change how people learn, work, and grow.
+            </p>
+            <p>
+              As the founder of <strong>CHOVI Technologies</strong>, I lead product
+              development from concept to deployment — handling everything from system
+              architecture to user experience design. My work sits at the intersection
+              of software engineering, AI automation, and entrepreneurship.
+            </p>
+            <p>
+              I believe the best software is invisible — it just works, quietly making
+              people&#39;s lives better. That philosophy drives every product I build.
+              <!-- REPLACE: Customize this bio with your actual story, education, or background -->
+            </p>
+          </div>
+
+          <div class="about-values reveal reveal-delay-3" role="list">
+            <div class="value-item" role="listitem">
+              <div class="value-dot" aria-hidden="true"></div>
+              <span class="value-text">Full-Stack Engineering</span>
+            </div>
+            <div class="value-item" role="listitem">
+              <div class="value-dot" aria-hidden="true"></div>
+              <span class="value-text">AI &amp; Machine Learning</span>
+            </div>
+            <div class="value-item" role="listitem">
+              <div class="value-dot" aria-hidden="true"></div>
+              <span class="value-text">Product Strategy</span>
+            </div>
+            <div class="value-item" role="listitem">
+              <div class="value-dot" aria-hidden="true"></div>
+              <span class="value-text">Systems Automation</span>
+            </div>
+            <div class="value-item" role="listitem">
+              <div class="value-dot" aria-hidden="true"></div>
+              <span class="value-text">Startup Building</span>
+            </div>
+            <div class="value-item" role="listitem">
+              <div class="value-dot" aria-hidden="true"></div>
+              <span class="value-text">EdTech Innovation</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ============================================================
+       PROJECTS SECTION
+       ============================================================ -->
+  <section class="projects" id="projects" aria-label="Projects">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 12px;">
+        <p class="section-label reveal" style="justify-content: center;">Selected Work</p>
+        <h2 class="section-heading reveal reveal-delay-1" style="margin: 0 auto;">
+          Projects &amp; <em>Products</em>
+        </h2>
+        <p class="section-subheading reveal reveal-delay-2" style="margin: 16px auto 0; text-align: center;">
+          A growing portfolio of software, automation tools, and digital products.
+        </p>
+      </div>
+
+      <div class="projects-grid" role="list">
+
+        <!-- ExamSprint — Featured (span 2) -->
+        <article class="project-card featured reveal" role="listitem">
+          <div class="project-arrow" aria-hidden="true">&#8599;</div>
+          <div class="project-status status-live">
+            <span class="status-dot" aria-hidden="true"></span>
+            Live
+          </div>
+          <h3 class="project-title">ExamSprint</h3>
+          <p class="project-desc">
+            AI-driven exam preparation platform deployed on Telegram. Students get
+            adaptive quizzes, timed sprints, and performance analytics — all within
+            their existing messaging workflow. Built for speed and scalability.
+          </p>
+          <div class="project-tech" aria-label="Technologies">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Telegram Bot API</span>
+            <span class="tech-tag">AI/ML</span>
+            <span class="tech-tag">Cloud</span>
+            <span class="tech-tag">REST API</span>
+          </div>
+        </article>
+
+        <!-- CHOVI Platform -->
+        <article class="project-card reveal reveal-delay-1" role="listitem">
+          <div class="project-arrow" aria-hidden="true">&#8599;</div>
+          <div class="project-status status-building">
+            <span class="status-dot" aria-hidden="true"></span>
+            In Progress
+          </div>
+          <h3 class="project-title">CHOVI Platform</h3>
+          <p class="project-desc">
+            Centralized product hub for all CHOVI Technologies products. Unified
+            authentication, analytics, and user management.
+          </p>
+          <div class="project-tech" aria-label="Technologies">
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">PostgreSQL</span>
+          </div>
+        </article>
+
+        <!-- Future Product Slot 1 -->
+        <article class="project-card reveal reveal-delay-2" role="listitem">
+          <div class="project-arrow" aria-hidden="true">&#8599;</div>
+          <div class="project-status status-planned">
+            <span class="status-dot" aria-hidden="true"></span>
+            Planned
+          </div>
+          <h3 class="project-title">Automation Suite</h3>
+          <p class="project-desc">
+            Workflow automation tooling for small businesses and freelancers. Turn
+            repetitive tasks into zero-touch operations.
+          </p>
+          <div class="project-tech" aria-label="Technologies">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Zapier API</span>
+            <span class="tech-tag">AI</span>
+          </div>
+        </article>
+
+        <!-- Future Product Slot 2 -->
+        <article class="project-card reveal reveal-delay-3" role="listitem">
+          <div class="project-arrow" aria-hidden="true">&#8599;</div>
+          <div class="project-status status-planned">
+            <span class="status-dot" aria-hidden="true"></span>
+            Coming Soon
+          </div>
+          <h3 class="project-title">Next Product</h3>
+          <p class="project-desc">
+            Something new is in the ideation phase. Built on real user pain points
+            observed through the CHOVI ecosystem. Stay tuned.
+          </p>
+          <div class="project-tech" aria-label="Technologies">
+            <span class="tech-tag">TBD</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ============================================================
+       CONTACT SECTION
+       ============================================================ -->
+  <section class="contact" id="contact" aria-label="Contact">
+    <div class="container">
+      <div class="contact-inner">
+
+        <!-- Left: CTA text -->
+        <div>
+          <p class="section-label reveal">Get In Touch</p>
+          <h2 class="contact-cta-text reveal reveal-delay-1">
+            Let&#39;s build something <em>great</em> together
+          </h2>
+          <div class="glow-line reveal reveal-delay-1" aria-hidden="true"></div>
+          <p class="contact-cta-sub reveal reveal-delay-2">
+            Whether you&#39;re looking to partner on a product, hire a developer,
+            invest in CHOVI Technologies, or just connect — I&#39;m open to conversations
+            that create real value.
+          </p>
+          <div class="reveal reveal-delay-3">
+            <!-- REPLACE: Update href with your actual email -->
+            <a href="mailto:certifiedchovi@gmail.com" class="btn btn-primary">
+              <span>&#128231;</span>
+              Send a Message
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Contact links -->
+        <div class="contact-links reveal reveal-delay-2" role="list">
+
+          <!-- LinkedIn -->
+          <!-- REPLACE: Update href with your actual LinkedIn URL -->
+          <a href="https://www.linkedin.com/in/victor-nwaokenye-362290259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="contact-link" role="listitem">
+            <div class="contact-link-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" stroke="#1a6cf5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <rect x="2" y="9" width="4" height="12" stroke="#1a6cf5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="4" cy="4" r="2" stroke="#1a6cf5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">LinkedIn</div>
+              <!-- REPLACE: Update this text with your LinkedIn handle -->
+              <div class="contact-link-value">linkedin.com/in/victornwaokenye</div>
+            </div>
+            <div class="contact-link-arrow" aria-hidden="true">&#8599;</div>
+          </a>
+
+          <!-- GitHub -->
+          <!-- REPLACE: Update href with your actual GitHub URL -->
+          <a href="https://github.com/CHOVI-Technologies" target="_blank" rel="noopener noreferrer" class="contact-link" role="listitem">
+            <div class="contact-link-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke="#1a6cf5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">GitHub</div>
+              <!-- REPLACE: Update this text with your GitHub username -->
+              <div class="contact-link-value">github.com/CHOVI-Technologies</div>
+            </div>
+            <div class="contact-link-arrow" aria-hidden="true">&#8599;</div>
+          </a>
+
+          <!-- Email -->
+          <!-- REPLACE: Update href and display text with your actual email -->
+          <a href="mailto:certifiedchovi@gmail.com" class="contact-link" role="listitem">
+            <div class="contact-link-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="#1a6cf5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <polyline points="22,6 12,13 2,6" stroke="#1a6cf5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">Email</div>
+              <!-- REPLACE: Update with your real email address -->
+              <div class="contact-link-value">certifiedchovi@gmail.com</div>
+            </div>
+            <div class="contact-link-arrow" aria-hidden="true">&#8599;</div>
+          </a>
+
+          <!-- ExamSprint Telegram -->
+          <!-- REPLACE: Update href with your actual Telegram link -->
+          <a href="https://t.me/examsprint_bot" target="_blank" rel="noopener noreferrer" class="contact-link" role="listitem">
+            <div class="contact-link-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="m22 2-7 20-4-9-9-4 20-7z" stroke="#1a6cf5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22 2 11 13" stroke="#1a6cf5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="contact-link-text">
+              <div class="contact-link-label">ExamSprint on Telegram</div>
+              <!-- REPLACE: Update with your actual Telegram bot link -->
+              <div class="contact-link-value">t.me/examsprint_bot</div>
+            </div>
+            <div class="contact-link-arrow" aria-hidden="true">&#8599;</div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">Victor Nwaokenye</div>
+        <p class="footer-copy">
+          &copy; <span id="footer-year">2025</span> CHOVI Technologies. All rights reserved.
+        </p>
+        <div class="footer-links">
+          <!-- REPLACE: Update these links as needed -->
+          <a href="#building">ExamSprint</a>
+          <a href="#chovi">CHOVI</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" aria-label="Scroll to top" title="Back to top">
+    &#8679;
+  </button>
+
+  <!-- Main JS -->
+  <script src="scripts/main.js"></script>
+  <script>
+    // Update footer year dynamically
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
